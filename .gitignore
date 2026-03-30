@@ -1,0 +1,28 @@
+.history
+.vscode
+node_modules
+.next
+out
+coverage
+dist
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Local environment ---
+.env
+.env.local
+.env.*
+
+# --- Logs ---
+*.log
+
+# --- Optional: local scripts (if not part of repo) ---
+bootstrap-starter.sh
