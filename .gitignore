@@ -2,6 +2,7 @@
 .vscode
 node_modules
 .next
+.codex
 out
 coverage
 dist
