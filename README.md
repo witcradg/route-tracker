@@ -141,6 +141,24 @@ Do not mix responsibilities across layers.
 
 Detailed setup instructions will be added as the project stabilizes.
 
+## Tooling Notes
+
+This repo currently targets:
+
+* Node `24.14.1`
+* Next.js `16.x`
+* ESLint `9.x`
+
+Rationale:
+
+* Node is pinned to `24.14.1` so local installs, CI, and the declared engine stay aligned.
+* ESLint is intentionally kept on `9.x` even when newer majors exist, because the Next.js 16 lint stack still pulls peer ranges that cleanly support ESLint 9 but not ESLint 10.
+* When refreshing dependencies, prefer a clean validation pass: remove `node_modules` and `.next`, run `npm install`, then run `npm run lint` and `npm run build`.
+
+Current repo note:
+
+* `main` currently has no checked-in test files, so validation is centered on lint and build until tests are reintroduced.
+
 ---
 
 ## Notes
