@@ -413,18 +413,20 @@ The application should not depend on:
 10. Add the data-access boundary in the eventual app structure so application logic reads normalized driving-route records rather than source-specific rows.
 
 11. Keep the provider design storage-agnostic so the read source can later move to:
-   - Google Sheets
-   - Supabase
+
+- Google Sheets
+- Supabase
 
 ### Verification Steps
 
 12. Verify the scaffolded app still runs after any data-related changes are introduced.
 
 13. Verify data-load behavior with the sample file.
-   Minimum checks:
-   - expected columns are recognized
-   - malformed values fail clearly
-   - normalized records are produced consistently
+    Minimum checks:
+
+- expected columns are recognized
+- malformed values fail clearly
+- normalized records are produced consistently
 
 14. Verify application logic consumes normalized records without TSV-specific assumptions.
 

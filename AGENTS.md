@@ -272,4 +272,3 @@ If the correct placement, pattern, or boundary is unclear:
 - avoid spreading mixed patterns further
 - check whether the missing guidance belongs in `docs/project/*`
 - if necessary, add or update the relevant project document before proceeding
-

@@ -49,7 +49,7 @@ Provides:
 
 ---
 
-### 2. docs/project/*
+### 2. docs/project/\*
 
 Project truth.
 
@@ -96,7 +96,7 @@ This is the primary enforcement layer for AI-assisted development.
 
 ---
 
-### 5. docs/starter/*
+### 5. docs/starter/\*
 
 Portable control system.
 
@@ -210,3 +210,4 @@ docs/
     STACK.md
     ARCHITECTURE.md
     BOUNDARIES.md
+```

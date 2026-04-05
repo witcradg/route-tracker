@@ -27,9 +27,11 @@ Repo-specific context enters the system through four defined layers.
 ### 1. Project Overview
 
 File:
+
 - `docs/project/PROJECT_OVERVIEW.md`
 
 Defines:
+
 - what the project is
 - its purpose and scope
 - current state (early, stable, migrating, etc.)
@@ -41,9 +43,11 @@ This is the highest-level context for all work.
 ### 2. Stack
 
 File:
+
 - `docs/project/STACK.md`
 
 Defines:
+
 - frameworks and runtime
 - package manager
 - data stores
@@ -60,9 +64,11 @@ This file must be specific enough to support not only reasoning about the system
 ### 3. Architecture
 
 File:
+
 - `docs/project/ARCHITECTURE.md`
 
 Defines:
+
 - system structure
 - data flow patterns
 - major modules and responsibilities
@@ -74,14 +80,17 @@ This replaces any implicit architectural assumptions.
 ### 4. Boundaries
 
 File:
+
 - `docs/project/BOUNDARIES.md`
 
 Defines:
+
 - rules governing implementation
 - separation of concerns
 - allowed and disallowed patterns
 
 Examples:
+
 - where data access should live
 - how reads vs writes are handled
 - how integrations are structured

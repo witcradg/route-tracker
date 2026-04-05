@@ -37,12 +37,12 @@ This workflow ensures that:
 
 All non-trivial work follows this sequence:
 
-1. Understand  
-2. Context  
-3. Plan  
-4. Implement  
-5. Verify  
-6. Capture  
+1. Understand
+2. Context
+3. Plan
+4. Implement
+5. Verify
+6. Capture
 
 ---
 
