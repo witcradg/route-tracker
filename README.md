@@ -160,6 +160,7 @@ Rationale:
 Current repo note:
 
 - `main` currently has no checked-in test files, so validation is centered on lint and build until tests are reintroduced.
+- `next-env.d.ts` is treated as generated Next.js metadata in this repo and is intentionally not tracked, which avoids meaningless merge conflicts from Zenflow-created branches while still allowing local dev and Vercel builds to regenerate it.
 
 ---
 

@@ -47,6 +47,12 @@ Root-level operational files:
 - ESLint config
 - `.env.*` if introduced later
 
+Generated file policy:
+
+- `next-env.d.ts` remains part of the TypeScript project configuration, but it is treated as generated build/dev metadata and should not be tracked in Git for this repo
+- local development, CI, and Vercel builds are expected to regenerate `next-env.d.ts` as needed
+- `tsconfig.json` should continue to include `next-env.d.ts` so TypeScript and Next.js tooling stay aligned
+
 ## Initial Scaffold Requirements
 
 The initial scaffold should include:
